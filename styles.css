@@ -1,0 +1,46 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    --blanc: hsl(0, 0%, 100%);
+    --grisClair: hsl(212, 45%, 89%);
+    --gris: hsl(220, 15%, 55%);
+    --bleuFoncer: hsl(218, 44%, 22%);
+}
+
+body{
+    height: 100hw;
+    width: 100%;
+    background: var(--grisClair);
+    
+}
+
+main{
+    width: 450px;
+    margin: 0 auto;
+    background-color: var(--blanc);
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 10%;
+    box-shadow: 5px 5px 10px black;
+}
+
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#texte{
+    margin: 0 auto;
+    width: 80%;
+}
+
+#texte p{
+    color: var(--gris);
+}
